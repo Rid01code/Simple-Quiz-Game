@@ -1,5 +1,5 @@
 import QuestionSet from "./Pages/QuestionSet"
-import bg from "./Assets/QuizBg.png"
+import bg from "./assets/QuizBg.png"
 
 const App = () => {
     return (
