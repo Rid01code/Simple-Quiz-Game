@@ -1,0 +1,57 @@
+.QuestionCard{
+    background: rgba( 0, 0, 0, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+        -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(237, 237, 52);
+    width: 50vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AnsCard{
+    background: rgba( 0, 0, 0, 0.4 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 12px );
+        -webkit-backdrop-filter: blur( 12px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    font-size: large;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.AnsCard:hover{
+    background-color: blue;
+}
+.AnsLock{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: large;
+    font-weight: 600;
+}
+
+@media (max-width: 500px) {
+    .QuestionCard{
+        width: 45vmax;
+        font-size: medium;
+    }
+    .AnsCard{
+        font-size: small;
+    }
+    .AnsLock{
+        font-size: small;
+    }
+}

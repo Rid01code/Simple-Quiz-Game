@@ -1,0 +1,16 @@
+.Button{
+    width: 150px;
+    height: 60px;
+    border-radius: 15px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .Button{
+        width: 130px;
+        height: 45px;
+        font-size: medium;
+    }
+}
